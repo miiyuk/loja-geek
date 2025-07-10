@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: loja;
+    src: url(../fonts/TAN-NIMBUS.otf);
+    format: otf;
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --font1: loja;
+
+    --cor1:#8F5BBD;
+    --cor2:#4B478C;
+    --cor3:#181455;
+    --cor4:#0A073A;
+    --cor5:#040220;
+
+}
+body{
+    background-color: white;
+}
+
+header{
+    font-family: var(--font1);
+    text-align: center;
+    color: var(--cor1);
+
+}
+
+nav{
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 1px;
+    font-variant: small-caps;
+    border-radius: 20px;
+}
+
+a.nav{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+a.nav:hover{
+    color: var(--cor1);
+    background-color: var(--cor5);
+}
+
+img.loja{
+    width: 100vw;
+    height: 50vh;
+    border-radius: 20px;
+}
